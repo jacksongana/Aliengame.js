@@ -4,8 +4,8 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) scale(0);
-
   transition: transform 0.5s;
+  cursor: pointer;
 }
 
 p {
@@ -22,8 +22,9 @@ p {
   transform: translate(-50%, -50%);
   width: 3000px;
   height: 60px;
-
+cursor: pointer;
   transition: top 0.5s;
+  
 }
 
 #stop {
@@ -33,6 +34,7 @@ p {
   position: fixed;
   top: 20px;
   left: 20px;
+  cursor: pointer;
 }
 
 #restart {
@@ -42,6 +44,7 @@ p {
   position: fixed;
   top: 20px;
   right: 20px;
+  cursor: pointer;
 }
 
 #alien {
@@ -49,6 +52,7 @@ p {
   transform: translate(-50%, -50%);
   left: 75%;
   transition: top 0.5s;
+  cursor: pointer;
 }
 
 #man1 {
